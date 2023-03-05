@@ -33,6 +33,9 @@ void short_max_method1(void){
     }
     printf("Method 1: The max value for short datatype (signed) is %d\n",tmp);
 
+    printf("Method 1: The min value for short datatype (signed) is %d\n",++tmp);
+
+
 
     //For unsigned short
     unsigned short k;
