@@ -1,4 +1,0 @@
-Flask
-flask-socketio
-pyserial
-flask-cors

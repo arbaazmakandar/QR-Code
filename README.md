@@ -1,3 +1,1 @@
-# NITR_Virtual_IoT_Lab
-# NITR_Virtual_IoT_Lab
-# NITR_Virtual_IoT_Lab
+FE-1 interv challenege [Frontend Mentor](https://www.frontendmentor.io)
