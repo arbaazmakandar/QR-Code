@@ -9,34 +9,50 @@
       font-family: 'Outfit', sans-serif;
       position: relative;
 
+      height: 100vh;
+      width: 100vw;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
     }
 
     .card {
-      margin-left: auto;
-      margin-right: auto;
-      width: 25%;
+      
+      width: 265px;
 
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       border-radius: 20px;
       overflow: hidden;
       padding: 20px;
       text-align: center;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
-    .card img {
+
+    .container {
+      padding: 2px 5px;
+      border-radius: 20px;
+
+    }
+    .container-img{
+      height: 272px;
+      width: 272px;
+    }
+
+    .container-img img {
       height: 100%;
       width: 100%;
       object-fit: cover;
       border-radius: 20px;
     }
 
-    .container {
-      padding: 2px 16px;
-      border-radius: 20px;
-
-    }
-
-    @media (max-width: 375px) {
+    /* @media (max-width: 375px) {
 
       Selector {}
 
@@ -46,7 +62,7 @@
 
       Selector {}
 
-    }
+    } */
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +72,9 @@
 <body>
 
   <div class="card">
+    <div class="container-img">
     <img src="./images/image-qr-code.png" alt="">
+  </div>
     <div class="container">
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
